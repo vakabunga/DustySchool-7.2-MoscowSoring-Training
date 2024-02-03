@@ -10,3 +10,4 @@
 2. npm install
 3. node index
 4. use Postman or other service for testing requests
+   server accepts an array of numbers and outputs a sorted version of the array in response
