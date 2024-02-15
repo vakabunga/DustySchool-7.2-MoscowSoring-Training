@@ -11,7 +11,7 @@ app.post('/', (req, res) => {
 
   outcomeData = incomeData.sort((a, b) => a - b);
 
-  res.send(outcomeData);
+  res.json(outcomeData);
 
   res.end();
 });
